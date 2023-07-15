@@ -1,0 +1,9 @@
+{
+  "functions": {
+    "api/index.ts": {
+      "includeFiles": "views/**/*"
+    }
+  },
+
+  "rewrites": [{ "source": "/(.*)", "destination": "/api" }]
+}
